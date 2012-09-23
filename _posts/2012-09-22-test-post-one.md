@@ -1,5 +1,5 @@
 ---
-layout: slate_post 
+layout: minimal_post 
 title: This is a test post
 ---
 
