@@ -1,0 +1,11 @@
+title: A github:pages Blog
+tagline: github:pages is great!
+owner: Christopher Poole
+link: https://github.com/christopherpoole/ghpblog
+
+pygments: true
+permalink: '/:title'
+markdown: rdiscount
+
+exclude: [README.md]
+
