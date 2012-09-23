@@ -1,5 +1,5 @@
 ---
-layout: modernist_post 
+layout: minimal_post 
 title: This is another earlier post!
 published: true 
 ---
