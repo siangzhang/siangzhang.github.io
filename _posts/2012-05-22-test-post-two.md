@@ -1,5 +1,5 @@
 ---
-layout: slate_post 
+layout: modernist_post 
 title: This is another earlier post!
 published: true 
 ---
