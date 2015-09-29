@@ -1,12 +1,12 @@
-title: A github:pages Blog
-tagline: github:pages is great!
+title: Siang ZHANG
+tagline: Science waits for no one!
 owner: Jason Siang ZHANG 
 link: http://szhang.net
-copyright: Copyright Jason Siang ZHANG 2015
+copyright: Copyright @ Jason Siang ZHANG
 
 pygments: true
 permalink: '/:title'
-markdown: rdiscount
+markdown: kramdown
 
 exclude: [README.md]
 
