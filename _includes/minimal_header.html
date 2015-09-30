@@ -32,6 +32,7 @@
         <div class="wrapper">
             <header>
                 <h1><a href="/">{{ site.title }}</a></h1>
-                {% include sidebar.html %} 
+{% capture sidebar %}{% include sidebar.md %}{% endcapture %}
+{{ sidebar | markdownify }}
         </header>
 

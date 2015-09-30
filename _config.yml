@@ -4,9 +4,14 @@ owner: Jason Siang ZHANG
 link: http://szhang.net
 copyright: Copyright @ Jason Siang ZHANG
 
-pygments: true
+highlighter: pygments
 permalink: '/:title'
-markdown: kramdown
+#markdown: kramdown
+#kramdown:
+#    input: GFM
+markdown: redcarpet
+redcarpet:
+    extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 exclude: [README.md]
 
