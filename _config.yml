@@ -6,12 +6,12 @@ copyright: Copyright &copy; Jason Siang ZHANG
 
 highlighter: pygments
 permalink: '/:title'
-#markdown: kramdown
+markdown: kramdown
 #kramdown:
 #    input: GFM
 markdown: redcarpet
 redcarpet:
-    extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "underline", "highlight", "quote", "footnotes"]
+    extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "highlight", "quote", "footnotes", "strikethrough", "with_toc_data", "underline"]
 
 exclude: [README.md]
 

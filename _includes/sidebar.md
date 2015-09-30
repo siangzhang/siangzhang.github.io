@@ -1,19 +1,19 @@
-###[Research](/Research)
+### [Research](/Research)
 
-###[Publications](/Publications)
+### [Publications](/Publications)
 
-###[Awards](/Awards)
+### [Awards](/Awards)
 
-###[Careers](/Careers)
+### [Careers](/Careers)
 
-###[Groups](/Groups)
+### [Groups](/Groups)
 
-###[Projects](/Projects)
+### [Projects](/Projects)
 
-###[Links](/Links)
+### [Links](/Links)
 
-###[Notes](/Notes)
+### [Notes](/Notes)
 
-###[Blog](/Blog)
+### [Blog](/Blog)
 
-###[Contact](/Contact)
+### [Contact](/Contact)
