@@ -15,7 +15,7 @@ Installation
 5. git fetch upstream
 6. git merge upstream/master
 7. git submodule init
-8. git submodule update --recurisve
+8. git submodule update --recursive
 9. git push https://github.com/USERNAME/USERNAME.github.com.git
 
 Usage

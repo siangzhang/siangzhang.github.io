@@ -1,6 +1,6 @@
 ---
-layout: slate_default 
-title: This is a test post
+layout: szhang_default 
+title: PhD thesis test page
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus in felis semper dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas eleifend mollis dignissim. Nunc ut magna quis sem porta venenatis. Proin ut mauris et enim pretium luctus. Curabitur convallis commodo sagittis. Vivamus tristique nunc ut est vestibulum vitae accumsan quam molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.[^1]
