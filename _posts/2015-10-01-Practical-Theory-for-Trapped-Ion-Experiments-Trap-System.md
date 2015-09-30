@@ -5,7 +5,7 @@ title: Practical Theory for Trapped $^{171}Yb^+$ Experiments - Trap System
 
 # Practical Theory for Trapped $^{171}Yb^+$ Experiments - Trap System
 
-![](http://127.0.0.1:8912/api/file/getImage?fileId=56096e3acec62e6fae000001)
+![Sub Systems](/static/images/subsystems.png)
 
 - Trap System: 4-rod Paul trap with atom ovens
 - Vaccum System: keep <$10^{-11}$ torr UHV to reduce the background collision rate to <1/hour
