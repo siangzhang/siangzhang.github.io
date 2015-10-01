@@ -2,7 +2,7 @@ title: <img src="/static/images/szhang.png" width="100px"/>
 tagline: Science waits for no one!
 owner: Jason Siang ZHANG
 link: http://szhang.net
-copyright: Copyright &copy; Jason Siang ZHANG
+copyright: "&copy; Jason Siang ZHANG"
 
 highlighter: pygments
 permalink: '/:title'

@@ -5,9 +5,29 @@ source: Pages
 ---
 
 {% for post in site.posts %}
-	{% if post.source == Nil %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="index_date"> {{ post.date | date_to_long_string }}</span>
-    <hr/>
+    {% if post.source == Nil %}
+        {% if post.pdf %}
+            <a href="/static/pdfs/{{ post.pdf }}">
+                <img src="/static/pdf32.png" align="right">
+            </a>
+        {% endif %}
+        <a href="{{ post.url }}">{{ post.title }}</a></br>
+        <span class="index_date"> {{ post.date | date_to_long_string }}</span>
+        {% if post.comments %}
+            | <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a>
+        {% endif %}
+        {% if post.introduction %}
+            </br>
+            {{ post.introduction }}
+        {% endif %}
+        {% if post.icon %}
+            <img src="{{ post.icon }}" width="75%">
+        {% endif %}
+        {% if post.introduction or post.icon %}
+            <p align="right"><a href="{{ post.url }}">Keep reading...</a></p>
+        {% else %}
+            </br></br>
+        {% endif %}
+        <hr/>
     {% endif %}
 {% endfor %}

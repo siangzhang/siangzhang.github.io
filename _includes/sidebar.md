@@ -16,4 +16,6 @@
 
 ### [Blog](/Blog)
 
+### [Chat](/Chat)
+
 ### [Contact](/Contact)
