@@ -1,7 +1,7 @@
 ---
 layout: szhang_default 
 title: Siang ZHANG - Publications
-permalink: /:title
+permalink: /Publications
 ---
 
 # Publications
