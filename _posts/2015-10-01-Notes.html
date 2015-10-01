@@ -1,18 +1,19 @@
 ---
 layout: szhang_default 
 title: Siang ZHANG - Notes
-source: Pages
+permalink: '/:title'
 ---
 
 {% for post in site.posts %}
-    {% if post.source == Nil %}
+    {% if post.permalink == Nil %}
         {% if post.pdf %}
             <a href="/static/pdfs/{{ post.pdf }}">
                 <img src="/static/pdf32.png" align="right">
             </a>
         {% endif %}
-        <a href="{{ post.url }}">{{ post.title }}</a></br>
-        <span class="index_date"> {{ post.date | date_to_long_string }}</span>
+        <span class="index_date"> {{ post.date | date: "%Y/%m/%d" }}</span>
+        &nbsp;-&nbsp;
+        <a href="{{ post.url }}">{{ post.title }}</a>
         {% if post.comments %}
             | <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a>
         {% endif %}

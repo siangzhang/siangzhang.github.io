@@ -1,7 +1,6 @@
 ---
 layout: szhang_default 
 title: Siang ZHANG - Welcome!
-source: Index
 ---
 
 <style>
@@ -14,8 +13,8 @@ source: Index
     top: 10px;
 	right: 10px;
     font-family: Arial;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 16px;
+	line-height: 18px;
 	}
 	.custom-nav ul {
 		margin: 0px;
@@ -33,18 +32,6 @@ source: Index
 		margin-left: 5px;
 		padding: 1px 6px;
     }
-.custom-nav ul li a:link {
-    text-decoration: none;
-}
-.custom-nav ul li a:visited {
-    text-decoration: none;
-}
-.custom-nav ul li a:hover {
-    text-decoration: underline;
-}
-.custom-nav ul li a:active {
-    text-decoration: underline;
-}
 </style>
 
 <div class="custom-nav">
@@ -54,24 +41,30 @@ source: Index
 </ul>
 </div>
 
+<h1>Home&nbsp;<small>{{ site.tagline }}</small></h1>
+
 <section id="Recent"></section>
 
-<h1>Recent Notes</h1>
+<h2><a href="/Notes">Recent Notes</a></h2>
 
+<ul>
 {% for post in site.posts limit:10 %}
-    {% if post.source == Nil %}
-    <a href="{{ post.url }}">{{ post.title }}</a>&nbsp;
-    <span class="index_date"> {{ post.date | date_to_long_string }}</span>
-    <hr/>
+    {% if post.permalink == Nil %}
+    <li>
+    <span class="index_date">{{ post.date | date: "%Y/%m/%d" }}</span>
+    &nbsp;-&nbsp;
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
     {% endif %}
 {% endfor %}
+</ul>
 
-<h1>Blog Updates</h1>
+<h2><a href="/Blog">Blog Updates</a></h2>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 <!--section class="github-widget" data-repo="siangzhang/siangzhang.github.io"></section>
 <script src="/javascripts/jquery.githubRepoWidget.js"></script-->
-<section class="github-box-content"><table></table></section>
+<section class="github-box-content" style="margin-bottom:30px"><ul></ul></section>
 <script type="text/javascript">
 var repo_name = 'siangzhang/siangzhang.github.io';
 var html_encode = function (str) {
@@ -99,21 +92,17 @@ $.ajax({
 	        dataType: 'jsonp',
 	        success: function (results) {
 	            var issues = results.data;
-	            var $issues_table = $(".github-box-content table");
+	            var $issues_table = $(".github-box-content ul");
 	            //$issues_table.append('<tr><td colspan="2"><a href="' + repo.html_url + '/issues" target="_blank"><strong>Issues</strong></a></td></tr>');
 	            for (var i = 0; i < issues.length; i++) {
 	                //var updated_at = issues[i].updated_at.substr(0, 10);
                     var updated_at = new Date(issues[i].updated_at);
-	                $issues_table.append('<tr> \
-							<td class="number" width="30">#' + issues[i].number + '</td> \
-							<td class="info"><a href="' + issues[i].html_url.replace('https://github.com/' + repo_name + '/', '/Blog/#') + '">' + html_encode(issues[i].title) + '</a></td> \
-							<td class="author" width="200" align="right">@<a href="' + issues[i].user.url.replace('api.', '').replace('users/', '')
+	                $issues_table.append('<li><a href="' + issues[i].html_url + '" target="_blank">#' + issues[i].number + '</a>&nbsp;-&nbsp;<a href="' + issues[i].html_url.replace('https://github.com/' + repo_name + '/', '/Blog/#') + '">' + html_encode(issues[i].title) + '</a>&nbsp;by&nbsp;<a href="' + issues[i].user.url.replace('api.', '').replace('users/', '')
 	                    + '" target="_blank">' + issues[i].user.login
-	                    + '</a><br/><em style="font-size:10pt">'
+	                    + '</a>&nbsp;at&nbsp;<em>'
 	                    //+ updated_at
                         + updated_at.toLocaleDateString() + '&nbsp;' + updated_at.toLocaleTimeString()
-                        + '</em></td></tr> \
-					');
+                        + '</em></li>');
 	            }
 	        }
 		});
@@ -123,29 +112,33 @@ $.ajax({
 
 <section id="About"></section>
 
-<h1>Education Background</h1>
+<h2><a href="/Research">Education Background</a></h2>
 
 <table border="0">
     <tbody>
         <tr>
-            <td>Tsinghua University, B.S., School of Sciences (Mathematics), <a href="http://math.tsinghua.edu.cn/"><span>Department of Mathematical Sciences</span></a>, 2010.<br />
+            <td valign="top" width="8%" align="left"><span class="year">2010</span></td>
+            <td>Tsinghua University, B.S., School of Sciences (Mathematics), <a href="http://math.tsinghua.edu.cn/"><span>Department of Mathematical Sciences</span></a><br />
             </td>
         </tr>
         <tr>
-            <td>Tsinghua University, Ph.D. student, Computer Science,&nbsp;<a href="http://castu.tsinghua.edu.cn/"><span>Center for Advanced Study</span></a>&nbsp;(Advisor,&nbsp;<a href="http://iiis.tsinghua.edu.cn/yao/"><span>Prof. Andrew C. Yao</span></a>), 2012.</td>
+            <td valign="top" width="8%" align="left"><span class="year">2012</span></td>
+            <td>Tsinghua University, Ph.D. student, Computer Science,&nbsp;<a href="http://castu.tsinghua.edu.cn/"><span>Center for Advanced Study</span></a>&nbsp;(Advisor,&nbsp;<a href="http://iiis.tsinghua.edu.cn/yao/"><span>Prof. Andrew C. Yao</span></a>)</td>
         </tr>
         <tr>
-            <td>Tsinghua University, Ph.D. student, Computer Science,&nbsp;<a href="http://cqi.tsinghua.edu.cn/"><span>Center for Quantum Information</span></a>&nbsp;(Advisor,&nbsp;<a href="http://iiis.tsinghua.edu.cn/yao/"><span>Prof. Andrew C. Yao</span></a><span>), 2013.<font /></td>
+            <td valign="top" width="8%" align="left"><span class="year">2013</span></td>
+            <td>Tsinghua University, Ph.D. student, Computer Science,&nbsp;<a href="http://cqi.tsinghua.edu.cn/"><span>Center for Quantum Information</span></a>&nbsp;(Advisor,&nbsp;<a href="http://iiis.tsinghua.edu.cn/yao/"><span>Prof. Andrew C. Yao</span></a><span>)</td>
         </tr>
         <tr>
-            <td>Tsinghua University, Ph.D. student, Physics,&nbsp;<a href="http://cqi.tsinghua.edu.cn/"><span>Center for Quantum Information</span></a>&nbsp;(Advisor,&nbsp;<a href="http://iiis.tsinghua.edu.cn/kihwan/"><span>Prof. Kihwan Kim</span></a><span>).</span></td>
+            <td valign="top" width="8%" align="left"><span class="year">2015</span></td>
+            <td>Tsinghua University, Ph.D. student, Physics,&nbsp;<a href="http://cqi.tsinghua.edu.cn/"><span>Center for Quantum Information</span></a>&nbsp;(Advisor,&nbsp;<a href="http://iiis.tsinghua.edu.cn/kihwan/"><span>Prof. Kihwan Kim</span></a><span>)</span></td>
         </tr>
     </tbody>
 </table>
 
-<h1>Selected Publications</h1>
+<h2><a href="/Publications">Selected Publications</a></h2>
 
-<table border="0" width="80%">
+<table border="0">
     <tbody>
         <tr>
             <td valign="top" width="5%" align="left">1</td>
@@ -163,9 +156,9 @@ $.ajax({
     </tbody>
 </table>
 
-<h1>Outstanding Awards</h1>
+<h2><a href="/Awards">Outstanding Awards</a></h2>
 
-<table border="0" width="80%">
+<table border="0">
     <tbody>
         <tr>
             <td valign="top" width="8%" align="left"><span class="year">2009</span></td>
@@ -179,7 +172,3 @@ $.ajax({
         </tr>
     </tbody>
 </table>
-
-<!--div markdown="1"><div-->
-{% capture Links %}{% include Links.md %}{% endcapture %}
-{{ Links | markdownify }}

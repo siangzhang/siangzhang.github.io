@@ -1,8 +1,9 @@
 ---
 layout: szhang_default 
 title: Siang ZHANG - Publications
-source: Wiki
+permalink: '/:title'
 ---
 
-#Publications
+# Publications
+
 {% include wiki/Publications.md %}

@@ -4,7 +4,7 @@
             </footer>
         </div>
         <script src="/static/minimal/javascripts/scale.fix.js"></script>
-	{% if page.source == Nil %}
+	{% if page.permalink == Nil or page.disqus %}
 		<script type="text/javascript">
 			var disqus_shortname = 'szhang';
 			(function() {

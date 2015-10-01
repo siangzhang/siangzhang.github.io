@@ -1,7 +1,7 @@
 ---
 layout: szhang_default 
 title: Siang ZHANG - Blog
-source: Issues
+permalink: '/:title'
 ---
 
 <iframe src="/static/spring/" border=2 frameborder=0 width=100% height=600px marginheight=0 marginwidth=0 scrolling=no></iframe>
@@ -12,15 +12,15 @@ window.onload = function() {
 	var pageurl = window.location.href;
 	var href = pageurl.split('#');
 	if (href[1]) document.getElementsByTagName('iframe')[0].src = "/static/spring#" + href[1];
+    setInterval(function () {
+        var href = document.getElementsByTagName('iframe')[0].contentWindow.location.href.split('#');
+        var hash = '';
+        if (href[1]) hash = '#' + href[1];
+       	if (hash != last_hash) {
+        	var pageurl = location.href.split('#')[0] + hash;
+            last_hash = hash;
+            window.history.pushState({path:pageurl},'',pageurl);
+        }
+    }, 500);
 }
-setInterval(function () {
-    var href = document.getElementsByTagName('iframe')[0].contentWindow.location.href.split('#');
-    var hash = '';
-    if (href[1]) hash = '#' + href[1];
-   	if (hash != last_hash) {
-    	var pageurl = location.href.split('#')[0] + hash;
-        last_hash = hash;
-        window.history.pushState({path:pageurl},'',pageurl);
-    }
-}, 500);
 </script>
