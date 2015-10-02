@@ -21,13 +21,11 @@ permalink: /Notes
             </br>
             {{ post.introduction }}
         {% endif %}
-        {% if post.icon %}
-            <img src="{{ post.icon }}" width="75%">
+        {% if post.cover %}
+            <img src="{{ post.cover }}" width="75%">
         {% endif %}
-        {% if post.introduction or post.icon %}
-            <p align="right"><a href="{{ post.url }}">Keep reading...</a></p>
-        {% else %}
-            </br></br>
+        {% if post.introduction or post.cover %}
+            <p align="right"><a href="{{ post.url }}">Read more...</a></p>
         {% endif %}
         <hr/>
     {% endif %}

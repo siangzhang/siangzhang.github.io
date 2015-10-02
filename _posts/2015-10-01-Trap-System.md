@@ -1,9 +1,10 @@
 ---
 layout: szhang_default
-title: Practical Theory for Trapped $^{171}Yb^+$ Experiments
+title: Practical Theory for Trapped $^{171}\mathrm{Yb}^+$ Experiments
+cover: /2015/10/01/subsystems.png
 ---
 
-# Practical Theory for Trapped $^{171}Yb^+$ Experiments - Trap System
+# Practical Theory for Trapped $^{171}\mathrm{Yb}^+$ Experiments
 
 ![Sub Systems](../subsystems.png)
 
