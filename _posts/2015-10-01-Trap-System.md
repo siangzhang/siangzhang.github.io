@@ -1,12 +1,10 @@
 ---
-layout: szhang_default
-title: Practical Theory for Trapped $^{171}\mathrm{Yb}^+$ Experiments
-cover: /2015/10/01/subsystems.png
+layout: szhang_note
+title: Practical Theory for Trapped Ion Experiments
+cover: /notes/2015/10/01/subsystems.png
+mathjax: true
+category: notes
 ---
-
-# Practical Theory for Trapped $^{171}\mathrm{Yb}^+$ Experiments
-
-![Sub Systems](../subsystems.png)
 
 - Trap System: 4-rod Paul trap with atom ovens
 - Vaccum System: keep <$10^{-11}$ torr UHV to reduce the background collision rate to <1/hour
@@ -75,7 +73,7 @@ and
 
 $$q_ x=-q_ y=\frac{2QV_ 0}{mR^2\Omega^2},q_ z=0$$
 
-when $\|a_ i\|,\|q_ i\|\ll 1\$, set $\beta_ i=\sqrt{a_ i+q_ i^2/2}$, the first-order solution
+when $\|a_ i\|,\|q_ i\|\ll 1$, set $\beta_ i=\sqrt{a_ i+q_ i^2/2}$, the first-order solution
 
 $$u_ i(t)\approx A_ i\cos(\beta_ i \frac{\Omega}{2} t+\phi_ i)(1+\frac{q_i}{2}\cos(\Omega t))$$
 
@@ -83,11 +81,11 @@ the main secular motion of the ion is harmonic oscillation,  fast oscillation wi
 
 > ''excess'' micromotion caused by additional terms can be detected with TDC or Raman beams and then compensated with bias DC rods
 
-The Yb metal powder is heated and gasified from atom oven. A beam of Yb atoms is shooted into trap center, then ionized by a pair of strong 399nm and 370nm laser beams. Once the ion is Doppler cooled to limit
+The metal powder is heated and gasified from atom oven. A beam of Yb atoms is shooted into trap center, then ionized by a pair of strong 399nm and 370nm laser beams. Once the ion is Doppler cooled to limit
 
 $$T_ D\approx\frac{\hbar\gamma}{2k_ B}\approx470\ \mu K$$
 
-where $\gamma=2\pi\cdot 19.7$ MHz is the linewidth of the cooling transition, its internal electric levels plus external trap oscillator can be written as
+where $\gamma=2\pi\cdot 19.7$ MHz is the linewidth of the cooling transition for $^{171}\mathrm{Yb}^+$ case, its internal electric levels plus external trap oscillator can be written as
 
 $$\hat{H}^{(e)}+\hat{H}^{(m)}=\frac{\hbar\omega_ 0}{2}\sigma_ z+\hbar\omega_1 a^\dagger a$$
 
@@ -159,7 +157,7 @@ $$\hat{H}_I
    +h.c
   \right]
  -\frac{\hbar\delta}2\sigma_z$$
-
+ 
 ## Open Problems
 two ions are not stable in high trap
 z direction rf from dc rods

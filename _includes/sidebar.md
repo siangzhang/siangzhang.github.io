@@ -1,21 +1,19 @@
-### [Research](/Research)
+### [Research](/research)
 
-### [Publications](/Publications)
+### [Publications](/publications)
 
-### [Awards](/Awards)
+### [Awards](/awards)
 
-### [Careers](/Careers)
+### [Groups](/groups)
 
-### [Groups](/Groups)
+### [Projects](/projects)
 
-### [Projects](/Projects)
+### [Links](/links)
 
-### [Links](/Links)
+### [Notes](/notes)
 
-### [Notes](/Notes)
+### [Blog](/blog)
 
-### [Blog](/Blog)
+### [Chat](/chat)
 
-### [Chat](/Chat)
-
-### [Contact](/Contact)
+### [Contact](/contact)

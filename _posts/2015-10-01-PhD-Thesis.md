@@ -1,5 +1,5 @@
 ---
-layout: szhang_default 
+layout: szhang_default
 title: PhD Thesis
-permalink: /PhD-Thesis
+permalink: /phd-thesis
 ---
