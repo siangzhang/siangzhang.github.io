@@ -122,7 +122,7 @@ $$\begin{aligned}
     e^{i\eta a}|n\rangle\\
 &=\frac{\hbar\Omega}2
     e^{-\frac{\eta^2}2+i\phi}
-    (\sum_ {j=0}^\infty\frac{(\imath\eta)^j}{j!}(a^\dagger)^j\langle m|)\cdot(\sum_{j=0}^\infty\frac{(\imath\eta)^j}{k!}a^j|n\rangle)\\
+    (\sum_ {j=0}^\infty\frac{(\imath\eta)^j}{j!}(a^\dagger)^j\langle m|)\cdot(\sum_{j=0}^\infty\frac{(\imath\eta)^j}{j!}a^j|n\rangle)\\
 &=\frac{\hbar\Omega}2
     e^{-\frac{\eta^2}2+i\phi}
     (\sum_ {j=0}^m\frac{(\imath\eta)^j}{j!}\sqrt{\frac{m!}{(m-j)!}}\langle m-j|)\cdot(\sum_{j=0}^n\frac{(\imath\eta)^j}{j!}\sqrt{\frac{n!}{(n-j)!}}|n-j\rangle)\\
