@@ -1,10 +1,15 @@
 ---
 layout: szhang_project
-title: maTHμ Project
+title: <a href="http://mathmu.github.io" target="_blank">maTHμ Project</a>
 category: projects
 permalink: /projects/mathmu
 cover: /projects/mathmu/logo.jpg
 ---
+
+<hr/><video title="software demo" poster="demo.jpg" controls autoplay loop width="100%">
+<source src="demo.mp4" type="video/mp4" loop="true" />
+<source src="demo.webm" type="video/webm" loop="true" />
+</video><hr/>
 
 ![](plan_outline.png)
 *Plan outline*
@@ -13,13 +18,16 @@ cover: /projects/mathmu/logo.jpg
 *Theory document*[^1]
 
 ![](system.png)
-*System design*
+*System design*[^2]
 
 ![](ui.png)
-*Software UI*[^2]
+*Software UI*
 
 ![](web.png)
 *Web calculator*[^3]
+
+![](repo.png)
+*Code repo*[^4]
 
 ![](factor_integer.png)
 *Big integer factorization*
@@ -57,19 +65,18 @@ cover: /projects/mathmu/logo.jpg
 ![](general_computation.png)
 *General computation*
 
-![](repo.png)
-*Code repo*
-
 ![](plan.png)
 *Full plan*
 
 ![](association.jpg)
-*maTHμ Association*[^3]
+*maTHμ Association*[^5]
 
 ![](happy.jpg)
-*Happy:)*[^4]
+*Happy:)*[^6]
 
 [^1]: [Mathematical Theory of Computer Algebra System](/publications/mathematical-theory-of-computer-algebra-system)
 [^2]: [maTHμ Computer Algebra System Group](/groups/mathmu-computer-algebra-system)
-[^3]: [maTHμ Association](http://www.mathmu.cn){:target="_blank"}
-[^4]: [maTHmU Scientific Computation Engine Group](/groups/mathmu-scientific-computation-engine)
+[^3]: [Old Homepage](http://mathmu.github.io/MTCAS/){:target="_blank"}
+[^4]: [GitHub/maTHmU](http://github.com/maTHmU){:target="_blank"}
+[^5]: [maTHμ Association](http://lab.mu){:target="_blank"}
+[^6]: [maTHmU Scientific Computation Engine Group](/groups/mathmu-scientific-computation-engine)
