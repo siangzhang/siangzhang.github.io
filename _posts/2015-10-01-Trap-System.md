@@ -2,7 +2,7 @@
 layout: szhang_note
 title: Practical Theory for Trapped Ion Experiments
 cover: /notes/2015/10/01/subsystems.png
-mathjax: true
+math: true
 category: notes
 ---
 

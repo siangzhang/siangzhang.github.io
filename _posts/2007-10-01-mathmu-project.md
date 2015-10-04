@@ -3,7 +3,7 @@ layout: szhang_project
 title: <a href="http://mathmu.github.io" target="_blank">maTHμ Project</a>
 category: projects
 permalink: /projects/mathmu
-cover: /projects/mathmu/logo.jpg
+cover: /projects/mathmu/mathmu.png
 ---
 
 <hr/><video title="software demo" poster="demo.jpg" controls autoplay loop width="100%">
