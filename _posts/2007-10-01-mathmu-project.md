@@ -1,10 +1,12 @@
 ---
 layout: szhang_project
-title: <a href="http://mathmu.github.io" target="_blank">maTHμ Project</a>
+title: maTHμ Project
 category: projects
 permalink: /projects/mathmu
 cover: /projects/mathmu/mathmu.png
 ---
+
+*[http://mathmu.github.io](http://mathmu.github.io){:target="_blank"}*
 
 <hr/><video title="software demo" poster="demo.jpg" controls autoplay loop width="100%">
 <source src="demo.mp4" type="video/mp4" loop="true" />
