@@ -15,9 +15,9 @@
 		</script>
 		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     {% endif %}
-        {% if page.katex or page.math %}
+        {% if page.katex %}
         <script type="text/javascript">
-          /*renderMathInElement(
+          renderMathInElement(
               document.body,
               {
                   delimiters: [
@@ -27,8 +27,8 @@
                       {left: "\\(", right: "\\)", display: false}
                   ]
               }
-          	);*/
-			$("script[type='math/tex']").replaceWith(
+          	);
+			/*$("script[type='math/tex']").replaceWith(
 			  function(){
 			    var tex = $(this).text();
 			    return "<span class=\"inline-equation\">" + 
@@ -41,7 +41,7 @@
 			    return "<div class=\"equation\">" + 
 			           katex.renderToString("\\displaystyle "+tex) +
 			           "</div>";
-			});
+			});*/
         </script>
         {% endif %}
     </body>
