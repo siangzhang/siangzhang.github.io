@@ -1,9 +1,5 @@
 ### [Research](/research)
 
-### [Publications](/publications)
-
-### [Awards](/awards)
-
 ### [Groups](/groups)
 
 ### [Projects](/projects)

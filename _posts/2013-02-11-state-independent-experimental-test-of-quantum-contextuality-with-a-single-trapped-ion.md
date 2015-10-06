@@ -1,14 +1,15 @@
 ---
 layout: szhang_publication
 title: State-independent experimental test of quantum contextuality with a single trapped ion
-category: publications
-permalink: /publications/state-independent-experimental-test-of-quantum-contextuality-with-a-single-trapped-ion
+category: research
+permalink: /research/state-independent-experimental-test-of-quantum-contextuality-with-a-single-trapped-ion
 journal: Physical Review Letters
 volume: 110, 070401
 link: http://link.aps.org/doi/10.1103/PhysRevLett.110.070401
 authors: <strong>Xiang Zhang</strong>, Mark Um, Junhua Zhang, Shuoming An, Ye Wang, Dong-ling Deng, Chao Shen, Lu-Ming Duan, Kihwan Kim
 pdf: http://journals.aps.org/prl/pdf/10.1103/PhysRevLett.110.070401
 cover: http://journals.aps.org/prl/article/10.1103/PhysRevLett.110.070401/figures/3/medium
+selected: publication
 ---
 
 Using a single trapped ion, we have experimentally demonstrated state-independent violation of a recent version of the Kochen-Specker inequality in a three-level system (qutrit) that is intrinsically indivisible. Three ground states of the <sup>171</sup>Yb<sup>+</sup> ion representing a qutrit are manipulated with high fidelity through microwaves and detected with high efficiency through a two-step quantum jump technique. Qutrits constitute the most fundamental system to show quantum contextuality and our experiment represents the first one that closes the detection efficiency loophole for experimental tests of quantum contextuality in such a system.

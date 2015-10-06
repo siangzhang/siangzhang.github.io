@@ -16,7 +16,7 @@ cover: /projects/mathmu/mathmu.png
 ![](plan_outline.png)
 *Plan outline*
 
-[![](/publications/mathematical-theory-of-computer-algebra-system/cover.png)](/publications/mathematical-theory-of-computer-algebra-system)
+[![](/research/mathematical-theory-of-computer-algebra-system/cover.png)](/research/mathematical-theory-of-computer-algebra-system)
 *Theory document*[^1]
 
 ![](system.png)
@@ -76,7 +76,7 @@ cover: /projects/mathmu/mathmu.png
 ![](happy.jpg)
 *Happy:)*[^6]
 
-[^1]: [Mathematical Theory of Computer Algebra System](/publications/mathematical-theory-of-computer-algebra-system)
+[^1]: [Mathematical Theory of Computer Algebra System](/research/mathematical-theory-of-computer-algebra-system)
 [^2]: [maTHμ Computer Algebra System Group](/groups/mathmu-computer-algebra-system)
 [^3]: [Old Homepage](http://mathmu.github.io/MTCAS/){:target="_blank"}
 [^4]: [GitHub/maTHmU](http://github.com/maTHmU){:target="_blank"}

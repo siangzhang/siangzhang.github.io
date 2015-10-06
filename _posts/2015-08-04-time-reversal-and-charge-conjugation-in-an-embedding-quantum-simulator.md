@@ -1,14 +1,15 @@
 ---
 layout: szhang_publication
 title: Time reversal and charge conjugation in an embedding quantum simulator
-category: publications
-permalink: /publications/time-reversal-and-charge-conjugation-in-an-embedding-quantum-simulator
+category: research
+permalink: /research/time-reversal-and-charge-conjugation-in-an-embedding-quantum-simulator
 journal: Nature Communications
 volume: 6, 7917
 link: http://www.nature.com/ncomms/2015/150804/ncomms8917/full/ncomms8917.html
 authors: <strong>Xiang Zhang</strong>, Yangchao Shen, Junhua Zhang, Jorge Casanova, Lucas Lamata, Enrique Solano, Man-Hong Yung, Jing-Ning Zhang, Kihwan Kim
 pdf: http://www.nature.com/ncomms/2015/150804/ncomms8917/pdf/ncomms8917.pdf
 cover: http://www.tsinghua.edu.cn/publish/news/4205/20150807/29021438937894213.jpg
+selected: publication
 ---
 
 Prof. Kim’s trapped-ion group at Center of Quantum Information realizes the first embedding quantum simulator[^1].

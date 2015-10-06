@@ -1,11 +1,12 @@
 ---
 layout: szhang_publication
 title: Quantum Computation and Simulation with Trapped Ions
-category: publications
-permalink: /publications/phd-thesis
+category: research
+permalink: /research/phd-thesis
 journal: PhD Thesis
 volume: online draft
 authors:  <strong><a href="/">Zhang Xiang</a></strong>
+selected: publication
 ---
 
 * Cover
