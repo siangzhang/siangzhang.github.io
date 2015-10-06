@@ -1,17 +1,14 @@
 {% include szhang_header.html %}
 
 <section>
-    <h1>{{ page.title }}</h1>
+    <h1><a href="{{ page.parent }}">↩</a>
+{{ page.title }}</h1>
     {% if page.pdf %}
     <a href="{{ page.pdf }}">
         <img src="/static/images/pdf.png" align="right">
     </a>
     {% endif %}
     <h6>{{ page.date | date_to_long_string }}</h6>
-    published at <a href="{{ page.link }}" target="_blank"><em>{{ page.journal }}</em>, {{ page.volume }}</a>
-    {% if page.authors %}
-    <br/><span>by {{ page.authors }}</span>
-    {% endif %}
     <hr/>
     {{ content }}
 </section>

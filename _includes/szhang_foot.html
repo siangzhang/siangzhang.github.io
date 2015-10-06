@@ -1,3 +1,4 @@
+			<div class="scroll-top" style="display: block;"><a href="./"><i class="fa fa-arrow-circle-up"></i></a></div>
 			<section id="disqus_thread"></section>
 			<footer>
                 <p><small>{{ site.copyright }}</small></p>
@@ -43,6 +44,9 @@
 			           "</div>";
 			});*/
         </script>
+        {% endif %}
+        {% if page.highlight or page.code %}
+        <script> hljs.initHighlightingOnLoad(); </script>
         {% endif %}
     </body>
 </html>

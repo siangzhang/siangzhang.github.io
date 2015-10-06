@@ -3,11 +3,11 @@ layout: szhang_group
 title: maTHμ Computer Algebra System Group
 category: groups
 permalink: /groups/mathmu-computer-algebra-system
-link: http://github.com/mulab
+link: http://mathmu.github.io/MTCAS/
 cover: /groups/mathmu-computer-algebra-system/mathmu_cas_group.jpg
 ---
 
-*Group photo before 大挑, 2009-07*[^1]
+*Group photo before 大挑, 2009-07*[^1][^2]
 
 From left to right:
 * 周梦宇 (Mengyu Zhou)
@@ -18,5 +18,6 @@ From left to right:
 * 阮 威 (Wei Ruan)
 * 张 龙 (Long Zhang)
 
-[^1]: [全国挑战杯科技大赛特等奖](http://news.tsinghua.edu.cn/publish/news/4205/2011/20110225232353546846979/20110225232353546846979_.html){:target="_blank"}
+[^1]: [maTHμ Project](/projects/mathmu)
+[^2]: [全国挑战杯科技大赛特等奖](http://news.tsinghua.edu.cn/publish/news/4205/2011/20110225232353546846979/20110225232353546846979_.html){:target="_blank"}
 

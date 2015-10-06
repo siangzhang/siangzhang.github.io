@@ -93,6 +93,13 @@ a:active {
 div.center {
   text-align: center;
 }
+
+div.center_table {
+  width:80%; 
+  margin-left:10%; 
+  margin-right:10%;
+}
+
 a small {
   font-size:11px;
   color:#777;
@@ -105,7 +112,7 @@ img + em {
 }
 
 .wrapper {
-  width:860px;
+  width:960px;
   margin:0 auto;
 }
 
@@ -219,9 +226,21 @@ header ul a strong {
 }
 
 section {
-  width:680px;
+  width:780px;
   float:right;
   /*padding-bottom:50px;*/
+}
+
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    opacity: .4;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: alpha(opacity=80);
+    z-index: 199;
 }
 
 small {

@@ -23,9 +23,12 @@
           MathJax.Hub.Config({
             TeX: {
               equationNumbers: {
-                autoNumber: "AMS"
-              }
+                autoNumber: "AMS",
+                useLabelIds: true
+              },
             },
+            "HTML-CSS": {linebreaks: {automatic: true}},
+            SVG: {linebreaks: {automatic: true}},
             tex2jax: {
               inlineMath: [ ['$','$'], ['\\(', '\\)'] ],
               displayMath: [ ['$$','$$'], ['\\[', '\\]'] ],
@@ -33,7 +36,12 @@
             }
           });
         </script>
-        <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <!--script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script-->
+        <script src="//cdn.bootcss.com/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        {% endif %}
+        {% if page.highlight or page.code %}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.8.0/highlight.min.js"></script>
         {% endif %}
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
         <!--[if lt IE 9]>
