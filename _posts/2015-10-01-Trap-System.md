@@ -104,34 +104,52 @@ $$\hat{H}_ 0=\hat{H}^{(e)}+\hat{H}^{(m)}+\frac{\hbar\delta}{2}\sigma_ z$$
 where detuning $\delta=\nu-\omega_ 0-(m-n)\omega_1$, and apply rotating-wave approximation
 
 $$\begin{aligned}
-\hat{H}_ I&=e^{\imath\hat{H}_ 0 t}(\hat{H}^{(i)}-\frac{\hbar\delta}{2}\sigma_ z)e^{-\imath\hat{H}_0 t}\\
+\hat{H}_ I&=e^{\imath\hat{H}_ 0 t/\hbar}(\hat{H}^{(i)}-\frac{\hbar\delta}{2}\sigma_ z)e^{-\imath\hat{H}_0 t/\hbar}\\
 &\approx\frac{\hbar\Omega}{2}(\hat{\sigma}_ +\exp(\imath(\eta(a e^{-\imath\omega_ 1 t}+a^\dagger e^{\imath \omega_ 1 t})-(m-n)\omega_ 1 t-\phi))+h.c.)-\frac{\hbar\delta}{2}\sigma_z
 \end{aligned}$$
 
 The coupling term
 
 $$\begin{aligned}
-\langle\uparrow,m|\hat{H}_I|\downarrow,n\rangle
-&=e^{\imath\nu t}\langle\uparrow,m|\hat{H}^{(i)}-\frac{\hbar\delta}{2}\sigma_z|\downarrow,n\rangle\\
-&\approx\frac{\hbar\Omega}{2}e^{-\imath\phi}\langle m|e^{\imath(\eta(a+a^\dagger)}|n\rangle\\
+\langle\uparrow,m|\hat{H}_I|\downarrow,n\rangle&=\langle\uparrow,m|e^{\imath\hat{H}_ 0 t/\hbar}(\hat{H}^{(i)}-\frac{\hbar\delta}{2}\sigma_ z)e^{-\imath\hat{H}_0 t/\hbar}|\downarrow,n\rangle\\
+&=e^{\imath(1/2(\omega_0+\delta)+m\omega_1+1/2(\omega_0+\delta)-n\omega_1) t}\langle\uparrow,m|\hat{H}^{(i)}-\frac{\hbar\delta}{2}\sigma_z|\downarrow,n\rangle\\
+&=e^{\imath\nu t}\langle\uparrow,m|\frac{\hbar}{2}\Omega(\hat{\sigma}_ ++\hat{\sigma}_-)e^{\imath(\eta(\hat{a}+\hat{a}^\dagger)-\nu t+\phi)}+h.c.|\downarrow,n\rangle\\
+&=\frac{\hbar\Omega}2\langle m|e^{\imath(\eta(\hat{a}+\hat{a}^\dagger)+\phi)}+e^{\imath(-\eta(\hat{a}+\hat{a}^\dagger)+2\nu t-\phi)}|\downarrow,n\rangle\\
+&\approx\frac{\hbar\Omega}{2}e^{\imath\phi}\langle m|e^{\imath\eta a^\dagger+\imath\eta a}|n\rangle\\
   &=\frac{\hbar\Omega}2
-    e^{-\frac{\eta^2}2-i\phi}
+    e^{-\frac{\eta^2}2+i\phi}
     \langle m|e^{i\eta a^\dagger}
     e^{i\eta a}|n\rangle\\
 &=\frac{\hbar\Omega}2
-    e^{-\frac{\eta^2}2-i\phi}
-    (\sum_ {k=0}^m\frac{i^{-k}\eta^k}{k!}\frac{m!}{(m-k)!}\langle m-k|)\cdot(\sum_{k=0}^n\frac{(i\eta)^k}{k!}\frac{n!}{(n-k)!}|n-k\rangle)\\
-&=\frac{\hbar\Omega}2 e^{-\frac{\eta^2}2-i\phi} (i\eta)^{|m-n|}\sqrt{\frac{n_ < !}{n_ >!}}L_ {n<}^{|m-n|}(\eta^2)\\ 
+    e^{-\frac{\eta^2}2+i\phi}
+    (\sum_ {j=0}^\infty\frac{(\imath\eta)^j}{j!}(a^\dagger)^j\langle m|)\cdot(\sum_{j=0}^\infty\frac{(\imath\eta)^j}{j!}a^j|n\rangle)\\
+&=\frac{\hbar\Omega}2
+    e^{-\frac{\eta^2}2+i\phi}
+    (\sum_ {j=0}^m\frac{(\imath\eta)^j}{j!}\sqrt{\frac{m!}{(m-j)!}}\langle m-j|)\cdot(\sum_{j=0}^n\frac{(\imath\eta)^j}{j!}\sqrt{\frac{n!}{(n-j)!}}|n-j\rangle)\\
+    &=\frac{\hbar\Omega}2
+    e^{-\frac{\eta^2}2+i\phi}
+    (\sum_ {k=0}^m\frac{(\imath\eta)^{m-k}}{(m-k)!}\sqrt{\frac{m!}{k!}}\langle k|)\cdot(\sum_{k=0}^n\frac{(\imath\eta)^{n-k}}{(n-k)!}\sqrt{\frac{n!}{k!}}|k\rangle)\\
+    &=\frac{\hbar\Omega}2
+    e^{-\frac{\eta^2}2+i\phi}
+    \sum_ {k=0}^{n_ <}\frac{(\imath\eta)^{m+n-2k}\sqrt{m!n!}}{(m-k)!(n-k)!k!}\\
+&=\frac{\hbar\Omega}2
+    e^{-\frac{\eta^2}2+i\phi}(\imath\eta)^{n_ >-n_ <}\sqrt{\frac{n_ < !}{n_ >!}}
+    \sum_ {k=0}^{n_ <}\frac{(\imath\eta)^{2(n_ <-k)}}{(n_ <-k)!}\frac{n_ >!}{(n_ >-k)!k!}\\ 
+    &=\frac{\hbar\Omega}2
+    e^{-\frac{\eta^2}2+i\phi}(\imath\eta)^{n_ >-n_ <}\sqrt{\frac{n_ < !}{n_ >!}}
+    \sum_ {k=0}^{n_ <}(-1)^{n_ <-k}\binom{n_ >}{k}\frac{(\eta^2)^{n_ <-k}}{(n_ <-k)!}\\ 
+   &=\frac{\hbar\Omega}2
+    e^{-\frac{\eta^2}2+i\phi}(\imath\eta)^{|m-n|}\sqrt{\frac{n_ < !}{n_ >!}}
+    \sum_ {j=0}^{n_ <}(-1)^j\binom{n_ <+|m-n|}{n_ <-j}\frac{(\eta^2)^j}{j!}\\     
+&=\frac{\hbar\Omega}2 e^{-\frac{\eta^2}2+i\phi} (i\eta)^{|m-n|}\sqrt{\frac{n_ < !}{n_ >!}}L_ {n<}^{|m-n|}(\eta^2)\\ 
   & \approx \frac{\hbar\Omega}2
-    e^{-\frac{\eta^2}2-i\phi}
-    (i\eta)^{|m-n|}\sqrt{
-      \frac{C_ {n_ >}^{n_ <}}{|m-n|!}.
-    }
+    e^{-\frac{\eta^2}2+i\phi}
+    (i\eta)^{|m-n|}\sqrt{\frac{n_ < !}{n_ >!}}(\binom{n_ >}{n_ <}-\binom{n_ >}{n_ <-1}\eta^2)
 \end{aligned}$$
 
 where Laguerre polynomial
 
-$$L_ n^\alpha(x)=\sum_ {k=0}^n(-1)^kC_{n-k}^{n+\alpha}\frac{x^k}{k!}$$ 
+$$L_ n^\alpha(x)=\sum_ {j=0}^n(-1)^j\binom{n+\alpha}{n-j}\frac{x^j}{j!}=\binom{n+\alpha}{n}-\binom{n+\alpha}{n-1}x+\cdots$$ 
 
 Specially, for carrier transition $
 |\downarrow,n\rangle\rightarrow
