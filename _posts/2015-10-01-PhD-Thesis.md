@@ -5,6 +5,7 @@ category: research
 permalink: /research/phd-thesis
 journal: PhD Thesis
 volume: online draft
+link: /research/phd-thesis
 authors:  <strong><a href="/">Zhang Xiang</a></strong>
 selected: publication
 ---
