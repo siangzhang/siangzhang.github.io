@@ -7,7 +7,7 @@ journal: PhD Thesis
 volume: online draft
 link: /research/phd-thesis
 authors:  <strong><a href="/">Zhang Xiang</a></strong>
-pdf: qcsti.pdf
+pdf: /research/phd-thesis/qcsti.pdf
 selected: publication
 ---
 

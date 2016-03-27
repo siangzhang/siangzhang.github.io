@@ -5,7 +5,7 @@ link: http://szhang.net
 copyright: '&copy;&nbsp;<a href="/Contact">Jason Siang ZHANG</a>'
 
 permalink: pretty
-highlighter: pygments
+highlighter: rouge
 #markdown: maruku
 markdown: kramdown
 kramdown:

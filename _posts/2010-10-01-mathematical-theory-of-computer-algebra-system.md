@@ -7,7 +7,7 @@ journal: Tsinghua University Press
 volume: (ISBN) 9787302230106
 link: http://www.tup.com.cn/book/Showbook.asp?CPBH=034908-01&DJ=39
 authors: <a href="http://www.math.harvard.edu/~chaoli/" target="_blank">Li Chao</a>, Ruan Wei, Zhang Long, <strong><a href="/">Zhang Xiang</a></strong>
-pdf: mtcas.pdf
+pdf: /research/mathematical-theory-of-computer-algebra-system/mtcas.pdf
 cover: /research/mathematical-theory-of-computer-algebra-system/cover.png
 selected: publication
 ---
