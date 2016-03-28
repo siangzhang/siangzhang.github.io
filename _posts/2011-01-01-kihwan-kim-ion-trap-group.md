@@ -2,7 +2,7 @@
 layout: szhang_group
 title: Ion Trap Group of Prof. Kihwan Kim
 category: groups
-permalink: /groups/kihwan-kim-ion-trap
+permalink: /groups/kihwan-kim-ion-trap/
 link: http://iontrap.net
 cover: /groups/kihwan-kim-ion-trap/kk_iontrap_group.jpg
 ---

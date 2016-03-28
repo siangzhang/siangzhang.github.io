@@ -2,7 +2,7 @@
 layout: szhang_publication
 title: Mathematical Theory of Computer Algebra System
 category: research
-permalink: /research/mathematical-theory-of-computer-algebra-system
+permalink: /research/mathematical-theory-of-computer-algebra-system/
 journal: Tsinghua University Press
 volume: (ISBN) 9787302230106
 link: http://www.tup.com.cn/book/Showbook.asp?CPBH=034908-01&DJ=39

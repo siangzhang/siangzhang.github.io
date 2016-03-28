@@ -2,7 +2,7 @@
 layout: szhang_project
 title: 973 Project Genuine Quantum Network - Ion Trap
 category: projects
-permalink: /projects/973-genuine-quantum-network
+permalink: /projects/973-genuine-quantum-network/
 cover: /projects/973-genuine-quantum-network/loadion.png
 ---
 
