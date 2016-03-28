@@ -2,7 +2,7 @@
 layout: szhang_publication
 title: Quantum Computation and Simulation with Trapped Ions
 category: research
-permalink: /research/phd-thesis
+permalink: /research/phd-thesis/
 journal: PhD Thesis
 volume: online draft
 link: /research/phd-thesis
