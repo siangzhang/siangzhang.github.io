@@ -14,7 +14,7 @@ From left to right:
 * 谢凌曦 (Lingxi Xie)
 * 崔恒纲 (Henggang Cui)
 * [李 超 (Chao Li)](http://www.math.harvard.edu/~chaoli/){:target="_blank"}
-* [张 翔 (Xiang Zhang)](http://www.szhang.net){:target="_blank"}
+* [张 翔 (Xiang Zhang)](https://www.szhang.net){:target="_blank"}
 * 阮 威 (Wei Ruan)
 * 张 龙 (Long Zhang)
 

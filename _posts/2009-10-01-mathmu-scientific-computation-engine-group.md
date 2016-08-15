@@ -11,7 +11,7 @@ cover: /groups/mathmu-scientific-computation-engine/mathmu_business_group.jpg
 
 From left to right:
 * 徐菀檠 (Wanqing Xu)
-* [张 翔 (Xiang Zhang)](http://www.szhang.net){:target="_blank"}
+* [张 翔 (Xiang Zhang)](https://www.szhang.net){:target="_blank"}
 * 张昭源 (Zhaoyuan Zhang)
 * 张思培 (Sipei Zhang)
 * 曹 项 (Xiang Cao)
