@@ -1,0 +1,21 @@
+---
+layout: szhang_publication
+title: Experimental quantum simulation of fermion-antifermion scattering via boson exchange in a trapped ion
+category: research
+permalink: /research/experimental-quantum-simulation-of-fermion-antifermion-scattering-via-boson-exchange-in-a-trapped-ion
+journal: Nature Communications
+volume: 9, 195
+link: https://www.nature.com/articles/s41467-017-02507-y
+authors: <strong>Xiang Zhang</strong>, Kuan Zhang, Yangchao Shen, Shuaining Zhang, Jing-Ning Zhang, Man-Hong Yung, Jorge Casanova, Julen S.Pedernales, Lucas Lamata, Enrique Solano, Kihwan Kim
+pdf: https://www.nature.com/articles/s41467-017-02507-y.pdf
+cover: https://media.springernature.com/lw900/springer-static/image/art%3A10.1038%2Fs41467-017-02507-y/MediaObjects/41467_2017_2507_Fig1_HTML.jpg
+selected: publication
+---
+
+Prof. Kihwan Kim’s trapped ion group at Center of Quantum Information of Institute for Interdisciplinary Information Sciences realized a quantum simulation of a fundamental model in quantum field theory in a trapped ion system. The work was published in Nature Communications on Jan. 15 th , 2018 which is entitled as “Experimental quantum simulation of fermion-antifermion scattering via boson exchange in a trapped ion.”
+
+The field of quantum simulations with controllable quantum systems is rapidly developing and the time for a quantum simulator to outperform classical computational capacities does not look that far away. Such a quantum simulation device is expected to execute complicated computational tasks, such as involved computations in the frames of quantum field theory or quantum chemistry. Quantum field theories are among the most successful descriptions of the physical world from elementary particles to condensed matter systems. One of the most prominent approaches of analyzing the theories is to perturbatively expand the Dyson series using Feynman diagrams. However, certain regimes of theories cannot be studied in perturbation theory, where couplings are much stronger than the system energies for example. A quantum simulator, on the other hand, could be a powerful tool to simulate quantum field theories much more efficiently than classical computers.
+
+In this paper, we experimentally demonstrate how a trapped ion system can simulate phenomena in quantum field theories, such as particle creation and annihilation or self-interaction processes. In our experiment, we perform a proof-of- principle quantum simulation of a fermion-antifermion scattering process mediated by bosonic modes. For the simulation we exploit the vibrational modes of the ion to encode the simulated bosonic modes, while we map the fermionic ones onto 4 of the electronic levels of the ion. This is the first time that a trapped ion system is used to simultaneously simulate bosons and fermions by profiting from the different degrees of freedom of the ion. Moreover, our approach is not restricted to perturbative regimes, as is the case in the standard classical or quantum computational approaches, instead we are able to observe the exact dynamics of the scattering process in highly non- perturbative regimes, something that would be cumbersome to compute even with dozens of qubits in a digital quantum computer. We believe that our experiment opens the door to the digital-analog scalable quantum simulation of quantum field theories in perturbative and non-perturvative regimes.
+
+The corresponding authors are an assistant research scientist, Jing-Ning Zhang, and tenured associate professor, Kihwan Kim. The equally contributed first authors are Zhang Xiang and Zhang Kuan who are Ph. D candidates in IIIS and carried the experiments with Yangchao Shen and Shuaining Zhang. Zhang Xiang is graduated from IIIS and is currently working mainly in Remin University. The assistant research scientist Jing-Ning Zhang, Prof. Man-Hong Yung in Southern University of Science and Technology, and the team of Prof. Enrique Solano in University of the Basque Country, Dr. Julen Pedernales, Dr. Jorge Casanova, and Dr. Lucas Lamata provided the theoretical support. Recently Prof. Enrique Solano received a distinguished professorship in Shanghai University. The research was funded by National Basic Research Program of China, the National Natural Science Foundation of China.
