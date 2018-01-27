@@ -2,9 +2,9 @@
 layout: szhang_note
 category: notes
 math: true
-pdf: /notes/2018/01/26/Talk.pdf
+pdf: /notes/2018/01/26/Part2.pdf
 slides: true
-title: Experimental Progress on Quantum Computing with Atomic Qubits
+title: Experimental Progress on Quantum Computing with Atomic Qubits (Part 1)
 ---
 张翔
 
@@ -172,7 +172,11 @@ Pauli矩阵[<sup>1</sup>](https://en.wikipedia.org/wiki/Pauli_matrices)$\sigma_x
 - 理论：量子纠错/动态解耦合/最优实验控制序列
 - 设备：窄线宽激光器/任意波形发生器/制冷机
 - 技术：微纳加工/激光稳频/[控制系统](http://m-labs.hk/artiq/)
-- 进阶：[离子量子计算与模拟](http://www.iontrap.net/publications/2018/01/28/quantum-computation-and-simulation-with-trapped-ions/)
+
+
+## 进阶阅读
+- [第二部分](/notes/2018/01/26/Part2.pdf)
+- [离子量子计算与模拟（科普）](http://www.iontrap.net/publications/2018/01/28/quantum-computation-and-simulation-with-trapped-ions/)
 
 
 
