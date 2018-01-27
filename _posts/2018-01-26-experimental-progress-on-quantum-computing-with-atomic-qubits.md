@@ -33,7 +33,7 @@ title: Experimental Progress on Quantum Computing with Atomic Qubits
 
 
 ## 摩尔定律发展趋势
-![Moore's Law](/note/2018/01/26/Moore.png)
+![Moore's Law](/notes/2018/01/26/Moore.png)
 
 
 ## 量子计算的发展
@@ -50,11 +50,11 @@ title: Experimental Progress on Quantum Computing with Atomic Qubits
 
 
 ## Shor算法分解速度
-![Time To Factor](/note/2018/01/26/TimeToFactor.jpg)
+![Time To Factor](/notes/2018/01/26/TimeToFactor.jpg)
 
 
 ## Nat. Chem. 7, 361–363 (2015)
-![Quantum Chemistry](/note/2018/01/26/QuantumChemistry.png)
+![Quantum Chemistry](/notes/2018/01/26/QuantumChemistry.png)
 
 
 
@@ -62,7 +62,7 @@ title: Experimental Progress on Quantum Computing with Atomic Qubits
 
 
 ## Quantum v.s. Classical
-![Quantum Classical](/note/2018/01/26/QuantumClassical.jpg)
+![Quantum Classical](/notes/2018/01/26/QuantumClassical.jpg)
 
 
 ## 量子门电路（代数模型）
@@ -121,11 +121,11 @@ IBM科学家DiVincenzo提出量子计算机物理实现标准
 
 
 ## [物理实现](https://en.wikipedia.org/wiki/Qubit#Physical_representation)
-![Physical Systems](/note/2018/01/26/PhysicalSystems.png)
+![Physical Systems](/notes/2018/01/26/PhysicalSystems.png)
 
 
 ## 主流实现对比及应用场景
-![](/note/2018/01/26/IonQCCompare.png)
+![](/notes/2018/01/26/IonQCCompare.png)
 
 
 ## 耦合与量子门实现
