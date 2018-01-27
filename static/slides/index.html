@@ -61,7 +61,7 @@ function GET()  {
             md.setAttribute('data-separator-vertical',decodeURIComponent(val.split('=')[1]));
         } else {
             var file = decodeURIComponent(val.split('=').slice(-1)[0].split('#')[0]);
-            md.setAttribute('data-markdown', file);
+            md.setAttribute('data-markdown', 'https://raw.githubusercontent.com/siangzhang/siangzhang.github.io/master/' + file);
             document.title = file;
         }
     }
