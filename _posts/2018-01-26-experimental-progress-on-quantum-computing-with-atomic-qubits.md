@@ -172,6 +172,7 @@ Pauli矩阵[<sup>1</sup>](https://en.wikipedia.org/wiki/Pauli_matrices)$\sigma_x
 - 理论：量子纠错/动态解耦合/最优实验控制序列
 - 设备：窄线宽激光器/任意波形发生器/制冷机
 - 技术：微纳加工/激光稳频/[控制系统](http://m-labs.hk/artiq/)
+- 进阶：[离子量子计算与模拟](http://www.iontrap.net/publications/2018/01/28/quantum-computation-and-simulation-with-trapped-ions/)
 
 
 
