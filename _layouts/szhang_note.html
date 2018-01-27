@@ -2,6 +2,16 @@
 
 <section>
     <h1>{{ page.title }}</h1>
+    {% if page.pdf %}
+        <a href="{{ page.pdf }}">
+            <img src="/static/images/pdf.png" align="right">
+        </a>
+    {% endif %}
+    {% if page.slides %}
+        <a href="/static/slides/?https://raw.githubusercontent.com/siangzhang/siangzhang.github.io/master/{{ page.path }}">
+            <img src="/static/images/slides.png" align="right">
+        </a>
+    {% endif %}
     <h6>{{ page.date | date_to_long_string }}</h6>
     {% if page.introduction %}
         <p> {{page.introduction }}
