@@ -20,16 +20,16 @@ title: Experimental Progress on Quantum Computing with Atomic Qubits
 
 ## 经典计算面临的困难
 - 日益增长的计算需求
- - 民用（大数据/人工智能/物联网/区块链）
- - 工业（天气预报/化学/制药）
- - 科研（凝聚态/材料/蛋白质）
+  - 民用（大数据/人工智能/物联网/区块链）
+  - 工业（天气预报/化学/制药）
+  - 科研（凝聚态/材料/蛋白质）
 - 算法困难
- - NP难问题
- - 复杂系统模拟
+  - NP难问题
+  - 复杂系统模拟
 - 物理困难
- - 有限光速要求提高集成密度
- - 受限于量子隧穿（摩尔定律失效）
- - 以及发热密度（不可逆计算信息熵）
+  - 有限光速要求提高集成密度
+  - 受限于量子隧穿（摩尔定律失效）
+  - 以及发热密度（不可逆计算信息熵）
 
 
 ## 摩尔定律发展趋势
@@ -38,15 +38,15 @@ title: Experimental Progress on Quantum Computing with Atomic Qubits
 
 ## 量子计算的发展
 - 1982年由物理学家Feynman提出
- - 可控量子系统模拟其他量子力学系统
- - 解决指数复杂度的量子体系模拟问题
+  - 可控量子系统模拟其他量子力学系统
+  - 解决指数复杂度的量子体系模拟问题
 - 随着几个复杂度优于经典算法的量子算法被发现
- - 破解现代通讯基石RSA加密的整数分解[Shor算法](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
- - 平方加速的无结构数据库搜索[Grover算法](https://en.wikipedia.org/wiki/Grover%27s_algorithm)
+  - 破解现代通讯基石RSA加密的整数分解[Shor算法](https://en.wikipedia.org/wiki/Shor%27s_algorithm)
+  - 平方加速的无结构数据库搜索[Grover算法](https://en.wikipedia.org/wiki/Grover%27s_algorithm)
 - 量子计算渐渐成为研究热点
- - 加速Google搜索排名的[解线性方程组量子算法](https://www.technologyreview.com/s/426348/quantum-pagerank-algorithm-outperforms-classical-version/)
- - 人工智能相关的[量子机器学习算法](https://en.wikipedia.org/wiki/Quantum_machine_learning)
- - [Quantum Algorithm Zoo](http://math.nist.gov/quantum/zoo/)
+  - 加速Google搜索排名的[解线性方程组量子算法](https://www.technologyreview.com/s/426348/quantum-pagerank-algorithm-outperforms-classical-version/)
+  - 人工智能相关的[量子机器学习算法](https://en.wikipedia.org/wiki/Quantum_machine_learning)
+  - [Quantum Algorithm Zoo](http://math.nist.gov/quantum/zoo/)
 
 
 ## Shor算法分解速度
@@ -67,17 +67,17 @@ title: Experimental Progress on Quantum Computing with Atomic Qubits
 
 ## 量子门电路（代数模型）
 - 量子态
- - 量子比特：2维复空间（二能级系统）
- - 量子寄存器：多量子比特态空间直积
- - 量子测量：密度矩阵求偏迹
+  - 量子比特：2维复空间（二能级系统）
+  - 量子寄存器：多量子比特态空间直积
+  - 量子测量：密度矩阵求偏迹
 - 量子门
- - 可组合实现所有量子计算的[通用量子门组](https://en.wikipedia.org/wiki/Quantum_gate#Universal_quantum_gates)
- - 可组合实现所有经典计算的[Toffoli量子门](https://en.wikipedia.org/wiki/Toffoli_gate)
+  - 可组合实现所有量子计算的[通用量子门组](https://en.wikipedia.org/wiki/Quantum_gate#Universal_quantum_gates)
+  - 可组合实现所有经典计算的[Toffoli量子门](https://en.wikipedia.org/wiki/Toffoli_gate)
 - 量子编程
- - 量子电路描述语言[QASM](https://www.media.mit.edu/quanta/qasm2circ/)
- - IBM量子云计算[IBM Q](https://www.research.ibm.com/ibm-q/)
- - NMR量子云计算[NMRCloudQ](http://nmrcloudq.com/)
- - 量子虚拟机[本源量子](http://www.qubitonline.cn/)
+  - 量子电路描述语言[QASM](https://www.media.mit.edu/quanta/qasm2circ/)
+  - IBM量子云计算[IBM Q](https://www.research.ibm.com/ibm-q/)
+  - NMR量子云计算[NMRCloudQ](http://nmrcloudq.com/)
+  - 量子虚拟机[本源量子](http://www.qubitonline.cn/)
 
 
 ## 量子态记号[<sup>1</sup>](https://en.wikipedia.org/wiki/Bra%E2%80%93ket_notation)
@@ -87,12 +87,12 @@ title: Experimental Progress on Quantum Computing with Atomic Qubits
 |:---:|:---:|:---:|
 |量子态| 复向量 | $$\lvert\psi_0\rangle=\frac{1}{\sqrt{2}}\left(\lvert 0\rangle+i\lvert 1 \rangle\right)=\frac{1}{\sqrt{2}}\left(\begin{matrix}1 \\\\ i\end{matrix}\right)$$ |
 |测量概率| 系数模方 | $$P(\lvert 0\rangle)=P(\lvert 1\rangle)=\frac{1}{2}$$ |
-|量子门| 复矩阵 | $$\hat{U}=\frac{1}{\sqrt{2}}\left(\begin{matrix}1 & -i\\\\ i & -1\end{matrix}\right)$$ |
+|量子门| 复矩阵 | $$\hat{U}=\frac{1}{\sqrt{2}}\left(\begin{matrix}1 &  -i\\\\ i &  -1\end{matrix}\right)$$ |
 |态操作| 矩阵乘 | $$\lvert\psi_1\rangle=\hat{U}\cdot\lvert\psi_0\rangle=\left(\begin{matrix}1 \\\\ 0\end{matrix}\right)=\lvert 0 \rangle$$ |
 
 
 ## 量子寄存器
-- 3比特（未归一化）直积态表示为Kronecker积[<sup>1</sup>](https://en.wikipedia.org/wiki/Kronecker_product)$(\lvert 0\rangle-\lvert 1\rangle)\otimes \lvert 0\rangle \otimes(\lvert 0\rangle+\lvert 1\rangle)$=$\left(\begin{matrix}1 \\\\ -1\end{matrix}\right)\otimes \left(\begin{matrix}1 \\\\ 0\end{matrix}\right)\otimes \left(\begin{matrix}1 \\\\ 1\end{matrix}\right)$
+- 3比特（未归一化）直积态表示为Kronecker积[<sup>1</sup>](https://en.wikipedia.org/wiki/Kronecker_product)$(\lvert 0\rangle-\lvert 1\rangle)\otimes \lvert 0\rangle \otimes(\lvert 0\rangle+\lvert 1\rangle)$=$\left(\begin{matrix}1 \\\\  -1\end{matrix}\right)\otimes \left(\begin{matrix}1 \\\\ 0\end{matrix}\right)\otimes \left(\begin{matrix}1 \\\\ 1\end{matrix}\right)$
 - $\lvert 000\rangle +\lvert 001\rangle-\lvert 100\rangle-\lvert 101\rangle=(1,1,0,0,-1,-1,0,0)'$
 - 纠缠态$\lvert 000\rangle+\lvert 111\rangle=(1,0,0,0,0,0,0,1)'=\lvert 0\rangle+\lvert 7\rangle$
 - 部分量子测量[<sup>2</sup>](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics)相当于密度矩阵$\rho=\lvert\psi\rangle\langle\psi\rvert$求偏迹[<sup>3</sup>](https://en.wikipedia.org/wiki/Partial_trace)
@@ -137,33 +137,33 @@ IBM科学家DiVincenzo提出量子计算机物理实现标准
 
 
 ## 实验序列分解（单比特）
-Pauli矩阵[<sup>1</sup>](https://en.wikipedia.org/wiki/Pauli_matrices)$\sigma_x=\left(\begin{matrix}0 & 1 \\\\ 1 & 0\end{matrix}\right),\sigma_y=\left(\begin{matrix}0 & -i \\\\ i & 0\end{matrix}\right),\sigma_z=\left(\begin{matrix}1 & 0 \\\\ 0 & -1\end{matrix}\right)$
-- 一般形式的2阶酉阵[<sup>2</sup>](https://en.wikipedia.org/wiki/Unitary_matrix#Elementary_constructions) $$U=e^{i\phi}\left(\begin{matrix}e^{i\phi_1}\cos{\theta} & e^{i\phi_2}\sin{\theta} \\\\ -e^{-i\phi_2}\sin{\theta} & e^{-i\phi_1}\cos{\theta}\end{matrix}\right)$$
-- 设$\phi_1=\delta_1+\delta_2,\phi_2=\delta_1-\delta_2$则 $$\begin{align}U &= e^{i\phi}\left(\begin{matrix}e^{i\delta_1} & 0 \\\\ 0 & e^{-i\delta_1}\end{matrix}\right)\left(\begin{matrix}\cos{\theta} & \sin{\theta} \\\\ -\sin{\theta} & \cos{\theta}\end{matrix}\right)\left(\begin{matrix}e^{i\delta_2} & 0 \\\\ 0 & e^{-i\delta_2}\end{matrix}\right) \\\\
+Pauli矩阵[<sup>1</sup>](https://en.wikipedia.org/wiki/Pauli_matrices)$\sigma_x=\left(\begin{matrix}0 & 1 \\\\ 1 & 0\end{matrix}\right),\sigma_y=\left(\begin{matrix}0 &  -i \\\\ i & 0\end{matrix}\right),\sigma_z=\left(\begin{matrix}1 & 0 \\\\ 0 &  -1\end{matrix}\right)$
+- 一般形式的2阶酉阵[<sup>2</sup>](https://en.wikipedia.org/wiki/Unitary_matrix#Elementary_constructions) $$U=e^{i\phi}\left(\begin{matrix}e^{i\phi_1}\cos{\theta} & e^{i\phi_2}\sin{\theta} \\\\  -e^{-i\phi_2}\sin{\theta} & e^{-i\phi_1}\cos{\theta}\end{matrix}\right)$$
+- 设$\phi_1=\delta_1+\delta_2,\phi_2=\delta_1-\delta_2$则 $$\begin{align}U &= e^{i\phi}\left(\begin{matrix}e^{i\delta_1} & 0 \\\\ 0 & e^{-i\delta_1}\end{matrix}\right)\left(\begin{matrix}\cos{\theta} & \sin{\theta} \\\\  -\sin{\theta} & \cos{\theta}\end{matrix}\right)\left(\begin{matrix}e^{i\delta_2} & 0 \\\\ 0 & e^{-i\delta_2}\end{matrix}\right) \\\\
 &= e^{i\phi}e^{i \sigma_z \delta_1}e^{i \sigma_y \theta}e^{i \sigma_z \delta_2}\end{align}$$
 
 
 ## 容错量子计算
 - 错误来源
- - 退相干（环境影响）
- - 量子操控误差（有限参数精度）
+  - 退相干（环境影响）
+  - 量子操控误差（有限参数精度）
 
 - 量子态不可克隆，需要特殊的纠错方案
- - 量子纠错编码（如Surface Code）
- - 无退相干子空间
- - 几何量子计算
- - 拓扑量子计算
+  - 量子纠错编码（如Surface Code）
+  - 无退相干子空间
+  - 几何量子计算
+  - 拓扑量子计算
 
 可能需要上万个物理qubit实现一个逻辑qubit
 
 
 ## 认识误区
 - N比特=N比特纠缠=N比特量子计算机
- - [连接度](http://www.pnas.org/content/pnas/114/13/3305/F1.large.jpg)
+  - [连接度](http://www.pnas.org/content/pnas/114/13/3305/F1.large.jpg)
 - 超导量子计算使用高温超导材料就不需要低温
- - 仍然需要降到mK，保证环境热噪声远小于GHz能级差
+  - 仍然需要降到mK，保证环境热噪声远小于GHz能级差
 - 量子计算其实是某种并行计算(比如类似于GPU计算)取了个好听的名字
- - 希望今天后不再会误解
+  - 希望今天后不再会误解
 
 
 ## 我们能做什么
@@ -216,7 +216,7 @@ $p=11,q=13,e=23,m=69$('E')
 ## 模阶方法
 1. 随机取$a<N$，若$\gcd(a,N)\neq 1$，则$\gcd(a,N)$是N的非平凡因子
 1. 否则求a的阶r，即$f(x)=a^x\pmod N$的周期。应有$a^r\equiv 1\pmod N$
-1. 若r为奇数，或$a^{r/2}\equiv -1\pmod N$，返回第一步
+1. 若r为奇数，或$a^{r/2}\equiv  -1\pmod N$，返回第一步
 1. 因为$N\|a^r-1=(a^{r/2}-1)(a^{r/2}+1)$，$N\nmid a^{r/2}\pm 1$，所以$\gcd(a^{r/2}\pm 1,N)$都是N的非平凡因子
 
 
